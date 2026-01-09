@@ -72,8 +72,8 @@ modules:
       - type: file
         path: io.github.nearinfinitybrowser.nearinfinity.metainfo.xml
       - type: archive
-        url: https://github.com/Argent77/NearInfinity/releases/download/v2.4-20250611/NearInfinity-20250611.zip
-        sha256: 39515f32cb12da68bb0b8fb705cc5daf1d2bf6c2d75232cd33daecf744e8c73e
+        url: https://github.com/Argent77/NearInfinity/releases/download/v2.4-20260109/NearInfinity-20260109.zip
+        sha256: 03b0a2ef3055207ad1731faa1c269864e7ae8f94347ee421496e9023569c6b4f
         x-checker-data:
           type: json
           url: https://api.github.com/repos/Argent77/NearInfinity/releases/latest
