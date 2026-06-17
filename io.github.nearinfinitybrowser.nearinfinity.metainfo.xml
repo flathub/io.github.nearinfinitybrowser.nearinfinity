@@ -4,8 +4,7 @@
   <id>io.github.nearinfinitybrowser.nearinfinity</id>
 
   <name>Near Infinity</name>
-  <summary>An Infinity Engine Resource Browser and Editor</summary>
-  <developer_name>Near Infinity developers</developer_name>
+  <summary>Infinity Engine Resource Editor</summary>
   <url type="homepage">https://github.com/NearInfinityBrowser/NearInfinity/wiki</url>
   <url type="bugtracker">https://github.com/NearInfinityBrowser/NearInfinity/issues</url>
   <url type="help">https://github.com/NearInfinityBrowser/NearInfinity/discussions</url>
@@ -13,6 +12,10 @@
 
   <metadata_license>CC-BY-SA-4.0</metadata_license>
   <project_license>LGPL-2.1-or-later</project_license>
+
+  <developer id="io.github.nearinfinitybrowser">
+    <name>Near Infinity developers</name>
+  </developer>
 
   <description>
     <p>
@@ -23,6 +26,17 @@
       Additional features include resource conversion as well as extensive resource check and search functionality.
     </p>
   </description>
+
+  <categories>
+    <category>Game</category>
+    <category>GameTool</category>
+  </categories>
+
+  <keywords>
+    <keyword>IDE</keyword>
+    <keyword>Java</keyword>
+    <keyword>modding</keyword>
+  </keywords>
 
   <launchable type="desktop-id">io.github.nearinfinitybrowser.nearinfinity.desktop</launchable>
 
@@ -73,7 +87,21 @@
     </screenshot>
   </screenshots>
 
+  <branding>
+    <color type="primary" scheme_preference="light">#8a9db0</color>
+    <color type="primary" scheme_preference="dark">#989fa7</color>
+  </branding>
+
   <content_rating type="oars-1.1"/>
+
+  <requires>
+    <display_length compare="ge">768</display_length>
+  </requires>
+
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+  </recommends>
 
   <releases>
     <release version="v2.4-20260616" date="2026-06-16">
